@@ -1,0 +1,38 @@
+{
+    "name": "ghivarra/aether-appstarter",
+    "description": "The starter pack for Aether PHP Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ghivarra Senandika Rushdie",
+            "email": "gsenandika@gmail.com"
+        }
+    ],
+    "require": {
+         "php": "^8.3"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9",
+        "phpunit/phpunit": "^10.5.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/",
+            "Test\\": "test/"
+        },
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "apcu-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
