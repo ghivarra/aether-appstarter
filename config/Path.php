@@ -34,7 +34,7 @@ define('APPPATH', realpath(__DIR__ . '/../app') . DIRECTORY_SEPARATOR);
  * 
  * @var string SYSTEMPATH
 **/
-define('SYSTEMPATH', realpath(__DIR__ . '/../core') . DIRECTORY_SEPARATOR);
+define('SYSTEMPATH', realpath(__DIR__ . '/../vendor/ghivarra/aether/core') . DIRECTORY_SEPARATOR);
 
 /** 
  * Resource Path
