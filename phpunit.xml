@@ -4,7 +4,7 @@
          bootstrap="test/Bootstrap.php">
     <testsuites>
         <testsuite name="unit">
-            <directory>test/Core</directory>
+            <directory>test/Unit</directory>
         </testsuite>
     </testsuites>
 </phpunit>
